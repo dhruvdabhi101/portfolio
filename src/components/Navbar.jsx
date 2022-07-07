@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin,  } from 'react-icons/fa'
 import Logo from '../assets/Dhruv.png'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLine, BsFillPersonLinesFill } from 'react-icons/bs'
+import {  BsFillPersonLinesFill } from 'react-icons/bs'
 import { RiTwitterFill } from "react-icons/ri"; 
 import {Link} from 'react-scroll'
 
