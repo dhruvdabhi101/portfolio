@@ -12,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-gray-300 z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-gray-300 z-20">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] flex justify-center items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="#"
+              href="https://twitter.com/dhruvdabhi101"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Twitter <RiTwitterFill size={30} />
