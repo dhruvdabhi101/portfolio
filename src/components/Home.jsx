@@ -1,6 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div className="w-full h-screen bg-[#0a192f]" name="home">
@@ -12,7 +12,9 @@ const Home = () => {
                   building love for competitive programming. Having passion for Data Science and Machine Learing
               </p>
               <div>
+                    <Link to="skill" smooth={true}  duration={500}>
                 <button className='text-white border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600 duration-300]'>Click For Skills</button>
+              </Link>
               </div>
       </div>
     </div>
