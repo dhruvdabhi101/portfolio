@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Home />
       <Skills />
-      <Exp/>
+      <Exp />
     </div>
   );
 }

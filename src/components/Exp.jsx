@@ -8,14 +8,36 @@ import "react-vertical-timeline-component/style.min.css"
 
 const Exp = () => {
     return (
-      <div className="bg-[#0a192f] w-full h-screen text-gray-300 " name="exp" >
-        <div className=" mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="bg-[#0a192f] w-full h-screen text-gray-300 " name="exp">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full" >
           <div>
             <p className=" text-4xl font-bold inline border-b-4 border-pink-600">
               Expirience
             </p>
           </div>
-          <VerticalTimeline className='-z-0 md:z-0'>
+          <VerticalTimeline className="-z-0 md:z-0">
+            
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "#0A192F",
+                color: "rgb(209 213 219)",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="August, 2022 - present"
+              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+              // icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Web Development Inter
+              </h3>
+              <p>Let's Grow More</p>
+            </VerticalTimelineElement>
+
+
+
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
