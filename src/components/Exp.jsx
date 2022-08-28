@@ -18,24 +18,6 @@ const Exp = () => {
           <VerticalTimeline className="-z-0 md:z-0">
 
 
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{
-                background: "#0A192F",
-                color: "rgb(209 213 219)",
-              }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="Auguest, 2022 - present"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              // icon={<WorkIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Medlife Foundation
-              </h3>
-              <p>Web Development Intern</p>
-            </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
