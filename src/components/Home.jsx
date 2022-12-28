@@ -8,7 +8,7 @@ const Home = () => {
               <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Dhruv Dabhi</h1>
               <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I am Web Developer</h2>
               <p className='text-[#8892b0] py-4 max-w-[700px] '>I am Web Developer in the Path of learning and
-                  building love for competitive programming. Having passion for Data Science and Machine Learing
+                  building love for competitive programming. Having passion for Blockchain and Machine Learning
               </p>
               <div>
                     <Link to="skill" smooth={true}  duration={500}>
