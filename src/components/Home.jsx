@@ -11,6 +11,11 @@ const Home = () => {
                   building love for competitive programming. Having passion for Blockchain and Machine Learning
               </p>
               <div>
+          <div>
+            <a href="https://rzp.io/l/GAyaPmk6q">
+                <button className='text-white border-2 px-6 py-3 my-2 duration-300 hover:bg-pink-600 hover:border-pink-600]'>Click for Python Bootcamp</button>
+                </a>
+          </div>
                     <Link to="skill" smooth={true}  duration={500}>
                 <button className='text-white border-2 px-6 py-3 my-2 duration-300 hover:bg-pink-600 hover:border-pink-600]'>Click For Skills</button>
               </Link>
