@@ -16,9 +16,6 @@ const Home = () => {
                 <button className='text-white border-2 px-6 py-3 my-2 duration-300 hover:bg-pink-600 hover:border-pink-600]'>Click for Python Bootcamp</button>
                 </a>
           </div>
-                    <Link to="skill" smooth={true}  duration={500}>
-                <button className='text-white border-2 px-6 py-3 my-2 duration-300 hover:bg-pink-600 hover:border-pink-600]'>Click For Skills</button>
-              </Link>
               </div>
       </div>
     </div>
